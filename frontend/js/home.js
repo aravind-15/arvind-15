@@ -1,7 +1,7 @@
 $(function(){
     $("#submit").on("click",()=>{
         var jsondata={
-            id:$("#roll no").val(),
+            id:$("#rollno").val(),
             name:$("#name").val(),
             age:$("#age").val(),
             mobile:$("#mobile").val()
