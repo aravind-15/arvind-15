@@ -2,7 +2,7 @@ var mongoose=require('mongoose');
 const { text } = require('express');
 
 var userSchema=new mongoose.Schema({
-    roll no:{
+    id:{
        type: Number,
        required:true
     },
