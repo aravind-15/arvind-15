@@ -11,7 +11,6 @@ var userSchema=new mongoose.Schema({
         required:true
     },
     age :Number,
-    gender :text,
     mail :String,
     mobile : Number
 

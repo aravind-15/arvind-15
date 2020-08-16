@@ -1,11 +1,11 @@
 body{
     margin-top: 50px;
     margin-left: 20px;
-    background-color: #0d0e0a;
+    background-color: beige;
 }
 table,th,tr,td{
     background-color: aquamarine;
-   border : 1px solid ;
+   border : 10px solid ;
    border-collapse: collapse;
 }
 label,input{
