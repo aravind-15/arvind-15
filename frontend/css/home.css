@@ -5,7 +5,8 @@ body{
 }
 table,th,tr,td{
     background-color: aquamarine;
-    margin : 400px;
+    margin : 500px;
+    margin-top: 30px;
    border : 10px solid ;
    border-collapse: collapse;
 }
