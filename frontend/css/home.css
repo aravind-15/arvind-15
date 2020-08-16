@@ -12,7 +12,7 @@ table,th,tr,td{
    border-collapse: collapse;
 }
 label,input{
-    background-color: aquamarine;
+    
     padding: 0px !important;
     margin:5px !important;
 }

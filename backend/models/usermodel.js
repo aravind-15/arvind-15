@@ -2,7 +2,7 @@ var mongoose=require('mongoose');
 const { text } = require('express');
 
 var userSchema=new mongoose.Schema({
-    id:{
+    roll no:{
        type: Number,
        required:true
     },
@@ -11,7 +11,6 @@ var userSchema=new mongoose.Schema({
         required:true
     },
     age :Number,
-    mail :String,
     mobile : Number
 
 })
