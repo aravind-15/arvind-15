@@ -4,11 +4,12 @@ body{
     background-color: #0d0e0a;
 }
 table,th,tr,td{
-   border : 1px solid black;
+    background-color: aquamarine;
+   border : 1px solid ;
    border-collapse: collapse;
 }
 label,input{
-    background-color: aqua;
+    background-color: aquamarine;
     padding: 0px !important;
     margin:0px !important;
 }
