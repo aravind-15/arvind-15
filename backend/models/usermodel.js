@@ -10,7 +10,7 @@ var userSchema=new mongoose.Schema({
         required:true
     },
     age :Number,
-    mobile : String
+    mobile : Number
 })
 
 module.exports = mongoose.model("user",userSchema);
