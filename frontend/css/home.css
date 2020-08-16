@@ -11,7 +11,7 @@ table,th,tr,td{
 label,input{
     background-color: aquamarine;
     padding: 0px !important;
-    margin:0px !important;
+    margin:10px !important;
 }
 input{
     margin-bottom: 4px !important;
