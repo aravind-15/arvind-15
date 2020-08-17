@@ -1,5 +1,4 @@
 var mongoose=require('mongoose');
-const { text } = require('express');
 
 var userSchema=new mongoose.Schema({
     id:{
@@ -11,8 +10,7 @@ var userSchema=new mongoose.Schema({
         required:true
     },
     age :Number,
-    mobile : Number
-
+    mobile : String
 })
 
 module.exports = mongoose.model("user",userSchema);

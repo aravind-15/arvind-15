@@ -1,20 +1,15 @@
 body{
     margin-top: 50px;
     margin-left: 20px;
-    background-color: beige;
+    background-color: #f7fbe1;
 }
 table,th,tr,td{
-    background-color: aquamarine;
-    margin : 600px;
-    margin-top: 0px;
-    margin-right: 30px;
-   border : 3px solid ;
+   border : 1px solid black;
    border-collapse: collapse;
 }
 label,input{
-    border : 5px;
     padding: 0px !important;
-    margin:5px !important;
+    margin:0px !important;
 }
 input{
     margin-bottom: 4px !important;

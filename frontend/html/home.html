@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>form-table</title>
-    
+    <title>FORM</title>
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQPcTAs-vDZquCOtR1uWwl7EztqZvIDXwZLAw&usqp=CAU" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha512-rO2SXEKBSICa/AfyhEK5ZqWFCOok1rcgPYfGOqtX35OyiraBg6Xa4NnBJwXgpIRoXeWjcAmcQniMhp22htDc6g==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
@@ -12,17 +12,29 @@
 </head>
 <body>
     <div class='container-fluid'>
-        <h3> USER DATA </h3>
+        <h3>NEW USER</h3>
      <h5></h5>
+       <!-- <form action="/api/users/create" method="POST">
+        <label for="_id">ID:</label>  <br>
+            <input type="text" name="id" id="_id" placeholder="enter your id" required  > <br>
+    <label for="name">NAME: </label>  <br>
+            <input type="text" name="name" id="name" placeholder="enter your name"required > <br>
+    <label for="age">AGE: </label> <br>
+            <input type="text" name="age" id="age" placeholder="enter your age"> <br>
+        <label for="mobile">MOBILE :</label> <br>
+            <input type="text" name="mobile" id="mobile" placeholder="enter mobile number">
+            <br> <br>
+    <input type="submit" >  
+ </form> -->
  <div>
-    <label for="_id">ROLL NO</label> 
-    <input type="number" name="id" id="id" placeholder=" your roll no" required  > <br>
-<label for="name">NAME </label>
-    <input type="text" name="name" id="name" placeholder=" your name"required > <br>
-    <label for="age">AGE </label> 
-    <input type="number" name="age" id="age" placeholder=" your age"> <br>
-<label for="mobile">MOBILE NO </label>
-    <input type="number" name="mobile" id="mobile" placeholder="mobile number">
+    <label for="_id">ID:</label>  <br>
+    <input type="number" name="id" id="_id" placeholder="enter your id" required  > <br>
+<label for="name">NAME: </label>  <br>
+    <input type="text" name="name" id="name" placeholder="enter your name"required > <br>
+<label for="age">AGE: </label> <br>
+    <input type="number" name="age" id="age" placeholder="enter your age"> <br>
+<label for="mobile">MOBILE :</label> <br>
+    <input type="text" name="mobile" id="mobile" placeholder="enter mobile number">
     <br> <br>
 <input type="button" id="submit" name="status" value=" submit ">  
  </div>

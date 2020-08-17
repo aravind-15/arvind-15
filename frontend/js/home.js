@@ -11,7 +11,7 @@ $(function(){
               url:"/api/users/create",
               data: jsondata,
               success: function(){
-                 $("h5").html("ADDED").hide().fadeIn("slow");
+                 $("h5").html("SUCCESSFULLY ADDED!!!").hide().fadeIn("slow");
                  setTimeout(() => {
                     location.reload();
                  }, 2000);
